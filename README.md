@@ -18,6 +18,11 @@ A sleek, minimalist web application that allows users to enhance and customize p
 - **JavaScript**
 - **Responsive Design**
 
+## Images
+![UI](https://github.com/user-attachments/assets/8ec6d2d3-73d7-411f-aa2e-cb6abf5abb26)
+
+
+
 ## How to Use
 
 1. Enter your base prompt in the input field.
