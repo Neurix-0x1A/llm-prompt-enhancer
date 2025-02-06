@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Prompt Enhancer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <h1>LLM Prompt Enhancer</h1>
+      <p>Refining prompts for more efficient results.</p>
+    </header>
+
+    <main>
+      <textarea id="prompt-input" placeholder="Enter your prompt here..."></textarea>
+      <div class="controls">
+        <select id="complexity">
+          <option value="simple">Simple</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+        <select id="tone">
+          <option value="formal">Formal</option>
+          <option value="casual">Casual</option>
+        </select>
+      </div>
+      <button onclick="generatePrompt()">Generate</button>
+
+      <div id="output-section">
+        <p id="enhanced-prompt"></p>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
